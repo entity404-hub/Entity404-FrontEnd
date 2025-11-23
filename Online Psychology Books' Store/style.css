@@ -1,0 +1,73 @@
+body{
+border: 1rem solid rgb(4, 96, 255);
+border-radius: 1.8rem;
+scroll-behavior: smooth;
+background-color: white;
+}
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+  color: black;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgb(106, 106, 106);
+  text-align: center;
+  text-decoration: underline;
+}
+#book-1, #book-2, #book-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  border: 0.25rem solid black;
+  border-radius: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#book-container-1, #book-container-2, #book-container-3{
+  height: 40vh;
+  width: 17vw;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+#book-other-1, #book-other-2, #book-other-3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: larger;
+}
+#qty1, #qty2, #qty3{
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  height: 3vh;
+  width: 4vw;
+}
+#btn-1, #btn-2, #btn-3{
+  height: 2.5rem;
+  width: 6rem;
+  border: 0.25rem solid black;
+  border-radius: 0.5rem;
+  background-color:rgb(4, 96, 255);
+  color: white;
+  transition: background-color 0.2s linear, transform 0.2s linear;
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+#btn-1:hover{
+  background-color: rgb(18, 19, 104);
+  transform: scale(1.09);
+  cursor: pointer;
+}
+#btn-2:hover{
+  background-color: rgb(18, 19, 104);
+  transform: scale(1.09);
+  cursor: pointer;
+}
+#btn-3:hover{
+  background-color: rgb(18, 19, 104);
+  transform: scale(1.09);
+  cursor: pointer;
+}
+
